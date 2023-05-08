@@ -1,0 +1,13 @@
+#kazi{
+  .kazi{
+    &--video{
+      border-radius: 20px;
+      margin-top: 100px;
+      width: 600px;
+      height: 600px;
+      -webkit-box-shadow: 4px 4px 33px 39px rgba(10, 137, 234, 0.21);
+      -moz-box-shadow: 4px 4px 33px 39px rgba(10, 137, 234, 0.21);
+      box-shadow: 4px 4px 33px 39px rgba(10, 137, 234, 0.21);
+    }
+  }
+}

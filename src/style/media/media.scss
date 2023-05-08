@@ -1,0 +1,249 @@
+@media (max-width: 1140px) {
+  #header .modalContact{
+    left: 40%;
+  }
+}
+@media (max-width: 1024px) {
+  #oNas .oNas--about__title {
+    width: 348px;}
+  #ourTeam .ourTeam--swip .swiper-slide {
+    height: 575px;
+  }
+  #galereya .galereya--img .swiper-slide {
+    height: 500px;
+  }
+}
+@media (max-width: 992px) {
+  #home {
+    height: 546px;
+  }
+  #home .home h1 {
+    font-size: 33px;
+  }
+  #home .home p {
+    font-size: 18px;
+  }
+  #home .home {
+    padding-top: 193px;
+  }
+  #ourTeam .ourTeam--swip .swiper-slide img {
+    width: 70%;
+  }
+  #oNas .oNas--about {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  #oNas .oNas--about__title:nth-child(2) {
+    border-radius: 0 40px;
+  }
+  #galereya .galereya--img .swiper-slide img {
+    width: 100%;
+  }
+  .mySwiper{
+    height: 650px;
+  }
+  #header .header--menu{display: none}
+  #header .header {
+    margin: 0 40px 0 0;
+  }
+  #header .header--logo h1 {
+    font-size: 22px;
+  }
+  #header .header button{
+    font-size: 13px;
+  }
+  #header .spans{
+    display: block;
+  }
+  #header .modalContact{
+    left: 35%;
+    margin-top: 140px
+  }
+  #footer .footer--logo h1{
+    font-size: 22px;
+  }
+  #footer .footer--p {
+    margin: 20px 0 0 70px;
+  }
+  #footer .footer--menu a {
+    font-size: 14px;
+  }
+  #footer .footer--menu p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  #home .home h1 {
+    font-size: 40px;
+    font-family: 'Poltawski Nowy', serif;
+  }
+  #home .home p {
+    font-size: 16px;
+    padding-top: 188px;
+  }
+  #header .spans{
+    left: 93%;
+  }
+  #ourTeam .ourTeam h1{
+    font-size: 30px;
+    font-family: 'Poltawski Nowy', serif;
+  }
+  #ourTeam .ourTeam--swip .swiper-slide img {
+    width: 80%;
+  }
+  .mySwiper {
+    height: 600px;
+  }
+  #ourTeam .ourTeam--swip .swiper-slide {
+    height: 560px;
+  }
+  #oNas .oNas--client {
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+  }
+  #kazi .kazi--video {
+    width: 100%;
+    height: 100%;
+  }
+  #galereya .galereya h1 {
+    font-size: 28px;
+  }
+  #galereya .galereya--about {
+    margin-top: 60px;
+  }
+  #galereya .galereya--about {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  #galereya .galereya--about__title p {
+    width: 251px;
+  }
+
+  #galereya .galereya--about__title:nth-child(2) {
+    display: contents;
+    text-align: center;
+  }
+  #video .video--video {
+    width: 100%;
+    height: 487px;
+    margin-top: 60px;
+  }
+  #footer .footer--p {
+    margin: 30px 0 0 145px;
+    width: 267px;
+  }
+  #header .modalContact {
+    left: 26%;}
+}
+@media (max-width: 540px) {
+  #header .header--logo h1 {
+    font-size: 20px;
+  }
+  #header .header button {
+    font-size: 12px;
+  }
+  #header .spans {
+    left: 92%;
+  }
+  #header .spans p {
+    width: 31px;}
+  #home .home h1 {
+    font-size: 35px;
+  }
+  #home .home {
+    padding-top: 170px;
+  }
+  #home .home p {
+    padding-top: 240px;
+  }
+  #ourTeam .ourTeam--swip .swiper-slide {
+    height: 520px;
+  }
+  .ourTeam--swip{
+    .mySwiper{
+      height: 560px;
+    }
+  }
+  #kazi .kazi--video {
+    height: 100%;
+    width: 90%;
+  }
+  .galereya--img{
+    .mySwiper{
+      height: 635px
+    }
+  }
+  #video .video--video {
+    width: 100%;
+    height: 100%;
+  }
+  #footer .footer--menu{
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+  #footer .footer--p {
+    margin: 30px 0 0 145px;
+    width: 144px;
+  }
+  #footer .footer--logo h1 {
+    font-size: 20px;
+  }
+  #header .modalContact {
+    left: 22%;
+  }
+}
+@media (max-width: 480px) {
+  #header .header button {
+    display: none;
+  }
+  #header .spans p {
+    width: 30px;
+  }
+  #header .spans {
+    left: 88%;
+  }
+  #header .burger--menu {
+    transform: translateY(42%);
+  }
+  #header .burger--menu button{
+    display: block;
+  }
+  #header .modalContact {
+    left: 4%;
+  }
+  #home .home h1 {
+    font-size: 34px;
+  }
+  #ourTeam .ourTeam--swip .swiper-slide {
+    height: 420px;
+  }
+  .ourTeam--swip .mySwiper {
+    height: 457px;
+  }
+  #oNas .oNas--about__title {
+    width: 300px;
+    height: 282px;
+  }
+  #galereya .galereya--img .swiper-slide {
+    height: 430px;
+  }
+  .galereya--img .mySwiper {
+    height: 575px;
+  }
+  #footer .footer--p {
+    margin: 30px 0 0 0;
+  }
+  #footer .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #ourTeam .ourTeam--swip .swiper-slide img {
+    width: 95%;
+  }
+}
+@media (max-width: 320px) {
+
+}

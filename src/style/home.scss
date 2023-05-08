@@ -1,0 +1,16 @@
+#home{
+  background: url("../img/hero.svg") no-repeat center;
+  background-size: cover;
+  height: 633px;
+  .home{
+    padding-top: 210px;
+    color: white;
+    h1{
+      font-size: 40px;
+    }
+    p{
+      font-size: 20px;
+      padding-top: 30px;
+    }
+  }
+}

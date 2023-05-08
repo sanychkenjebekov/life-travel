@@ -1,0 +1,151 @@
+#header{
+  background: #1b28a9;
+  z-index: 10;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  .modalBg{
+    display: none;
+    position: fixed;
+    top: 0;
+    background: rgba(27, 40, 169, 0.68);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 11;
+  }
+  .modalContact{
+    display: none;
+    position: absolute;
+    margin-top: 200px;
+    background: #5a69ff;
+    padding: 40px 40px;
+    border-radius: 20px;
+    z-index: 12;
+    .close{
+      margin-left: 74%;
+      margin-top: -8%;
+      color: white;
+      font-size: 23px;
+      position: absolute;
+    }
+    h1{
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      margin: 0 0 10px 0;
+    }
+    left: 42%;
+    &--card{
+      display: flex;
+      flex-direction: column;
+      a{
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 17px;
+        padding: 10px 0;
+        .modalWhat{
+          padding: 0 10px 0 0 ;
+          color: #0ae000;
+          font-size: 23px;
+        }
+        .modalInst{
+          padding: 0 10px 0 0 ;
+          font-size: 23px;
+          color: #ee2a7b;
+        }
+        .modalTg{
+          padding: 0 10px 0 0 ;
+          font-size: 23px;
+          color: white;
+        }
+        .modalGmail{
+          padding: 0 10px 0 0 ;
+          font-size: 23px;
+        }
+      }
+    }
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .active{
+      color: #0ae000;
+    }
+    &--logo{
+      display: flex;
+      align-items: center;
+      h1{
+        color: white;
+        font-size: 25px;
+        margin-left: 10px;
+      }
+      img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+    }
+    &--menu{
+      a{
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 0 25px;
+      }
+    }
+    button{
+      background: green;
+      color: white;
+      font-size: 15px;
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+  }
+  .burger{
+    transform: translateX(100%);
+    position: fixed;
+    background: #1b28a9cc;
+    top: 0;
+    padding: 0 20px;
+
+    right: 0;
+    bottom: 0;
+    &--menu{
+      display: flex;
+      flex-direction: column;
+      transform: translateY(50%);
+      button{
+        background: green;
+        color: white;
+        font-size: 15px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        margin-top: 30px;
+        display: none;
+      }
+      a{
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 0;
+      }
+    }
+  }
+  .spans{
+    display: none;
+    position: absolute;
+    left: 94%;
+    top: 33%;
+    z-index: 10;
+    p{
+      width: 35px;
+      height: 3px;
+      background: #ffffffb0;
+      margin: 5px 0;
+      transition: .3s;
+    }
+  }
+}

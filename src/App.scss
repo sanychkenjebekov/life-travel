@@ -1,0 +1,45 @@
+@import "style/header";
+@import "style/home";
+@import "style/oNas";
+@import "style/galereya";
+@import "style/footer";
+@import "style/ourTeam";
+@import "style/kazi";
+@import "style/video";
+@import "style/media/media";
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  color: black;
+}
+.whatsApp{
+  position: fixed;
+  cursor: pointer;
+  top: 88%;
+  left: 95%;
+  color: #0ae000;
+  font-size: 30px;
+  z-index: 9;
+  &:hover{
+    background: #0ae000;
+    color: white;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .whatsApp{
+    left: 93%;
+  }
+}
+@media (max-width: 480px) {
+  .whatsApp{
+    left: 88%;
+  }
+}
